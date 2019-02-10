@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: BaseFire
+  m_EditorClassIdentifier: 
+  elements:
+  - name: Fire Sequence0001
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 1
+      width: 210
+      height: 79
+    coords:
+      x: 0
+      y: 0.6875
+      width: 0.41015625
+      height: 0.15429688
+    rotated: 0
+  - name: Fire Sequence0002
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 4
+      width: 210
+      height: 76
+    coords:
+      x: 0
+      y: 0.38476562
+      width: 0.41015625
+      height: 0.1484375
+    rotated: 0
+  - name: Fire Sequence0003
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 1
+      y: 1
+      width: 208
+      height: 79
+    coords:
+      x: 0.41015625
+      y: 0.8457031
+      width: 0.40625
+      height: 0.15429688
+    rotated: 0
+  - name: Fire Sequence0004
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 1
+      y: 3
+      width: 208
+      height: 77
+    coords:
+      x: 0
+      y: 0.53515625
+      width: 0.40625
+      height: 0.15039062
+    rotated: 0
+  - name: Fire Sequence0005
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 1
+      y: 5
+      width: 208
+      height: 75
+    coords:
+      x: 0.41015625
+      y: 0.23632812
+      width: 0.40625
+      height: 0.14648438
+    rotated: 0
+  - name: Fire Sequence0006
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 8
+      width: 209
+      height: 72
+    coords:
+      x: 0.41015625
+      y: 0.091796875
+      width: 0.40820312
+      height: 0.140625
+    rotated: 0
+  - name: Fire Sequence0007
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 3
+      width: 209
+      height: 77
+    coords:
+      x: 0.41210938
+      y: 0.69140625
+      width: 0.40820312
+      height: 0.15039062
+    rotated: 0
+  - name: Fire Sequence0008
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 0
+      width: 209
+      height: 80
+    coords:
+      x: 0
+      y: 0.84375
+      width: 0.40820312
+      height: 0.15625
+    rotated: 0
+  - name: Fire Sequence0009
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 7
+      width: 209
+      height: 73
+    coords:
+      x: 0
+      y: 0.08984375
+      width: 0.40820312
+      height: 0.14257812
+    rotated: 0
+  - name: Fire Sequence0010
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 4
+      width: 209
+      height: 76
+    coords:
+      x: 0
+      y: 0.234375
+      width: 0.40820312
+      height: 0.1484375
+    rotated: 0
+  - name: Fire Sequence0011
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 4
+      width: 211
+      height: 76
+    coords:
+      x: 0.41210938
+      y: 0.38476562
+      width: 0.41210938
+      height: 0.1484375
+    rotated: 0
+  - name: Fire Sequence0012
+    originalWidth: 211
+    originalHeight: 80
+    trimRect:
+      x: 0
+      y: 4
+      width: 210
+      height: 76
+    coords:
+      x: 0.40820312
+      y: 0.5371094
+      width: 0.41015625
+      height: 0.1484375
+    rotated: 0
+  material: {fileID: 2100000, guid: 36a40dfec980e465994a7661ffab1303, type: 2}
+  texture: {fileID: 2800000, guid: 68dccfe8b65be4bdc97c64c804a0b3af, type: 3}

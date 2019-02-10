@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: TourchAtlas
+  m_EditorClassIdentifier: 
+  elements:
+  - name: tourch fire0001
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 7
+      y: 12
+      width: 62
+      height: 143
+    coords:
+      x: 0
+      y: 0.421875
+      width: 0.12109375
+      height: 0.27929688
+    rotated: 0
+  - name: tourch fire0002
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 8
+      y: 3
+      width: 63
+      height: 152
+    coords:
+      x: 0.1328125
+      y: 0.703125
+      width: 0.123046875
+      height: 0.296875
+    rotated: 0
+  - name: tourch fire0003
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 7
+      y: 3
+      width: 67
+      height: 152
+    coords:
+      x: 0.38085938
+      y: 0.703125
+      width: 0.13085938
+      height: 0.296875
+    rotated: 0
+  - name: tourch fire0004
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 5
+      y: 5
+      width: 70
+      height: 150
+    coords:
+      x: 0.7285156
+      y: 0.70703125
+      width: 0.13671875
+      height: 0.29296875
+    rotated: 0
+  - name: tourch fire0005
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 2
+      y: 3
+      width: 67
+      height: 152
+    coords:
+      x: 0
+      y: 0.703125
+      width: 0.13085938
+      height: 0.296875
+    rotated: 0
+  - name: tourch fire0006
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 5
+      y: 13
+      width: 65
+      height: 142
+    coords:
+      x: 0.123046875
+      y: 0.42382812
+      width: 0.12695312
+      height: 0.27734375
+    rotated: 0
+  - name: tourch fire0007
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 7
+      y: 3
+      width: 62
+      height: 152
+    coords:
+      x: 0.2578125
+      y: 0.703125
+      width: 0.12109375
+      height: 0.296875
+    rotated: 0
+  - name: tourch fire0008
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 10
+      y: 11
+      width: 59
+      height: 144
+    coords:
+      x: 0.8671875
+      y: 0.71875
+      width: 0.115234375
+      height: 0.28125
+    rotated: 0
+  - name: tourch fire0009
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 11
+      y: 4
+      width: 53
+      height: 151
+    coords:
+      x: 0.5136719
+      y: 0.7050781
+      width: 0.103515625
+      height: 0.29492188
+    rotated: 0
+  - name: tourch fire0010
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 10
+      y: 4
+      width: 55
+      height: 151
+    coords:
+      x: 0.6191406
+      y: 0.7050781
+      width: 0.107421875
+      height: 0.29492188
+    rotated: 0
+  - name: tourch fire0011
+    originalWidth: 75
+    originalHeight: 155
+    trimRect:
+      x: 8
+      y: 19
+      width: 59
+      height: 136
+    coords:
+      x: 0.25195312
+      y: 0.43554688
+      width: 0.115234375
+      height: 0.265625
+    rotated: 0
+  material: {fileID: 2100000, guid: 4d448f53fa9e2462eb5ebabe517bc6b6, type: 2}
+  texture: {fileID: 2800000, guid: 62806a5fa6a394174a831d137b2deb6c, type: 3}

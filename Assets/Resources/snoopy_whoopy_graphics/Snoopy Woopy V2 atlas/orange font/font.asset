@@ -1,0 +1,2377 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -997644103, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: font
+  m_EditorClassIdentifier: 
+  lineHeight: 100
+  size: 32
+  pageInfos:
+  - texture: {fileID: 2800000, guid: b24472590f8a54a94b6d989ca2e70c41, type: 3}
+    material: {fileID: 2100000, guid: 331775e968e544100b48ee8a98741583, type: 2}
+  charInfos:
+  - id: 97
+    x: 429
+    y: 480
+    width: 54
+    height: 64
+    xoffset: 0
+    yoffset: 37
+    xadvance: 56
+    page: 0
+    uv0: {x: 0.66511625, y: 0.1552795}
+  - id: 98
+    x: 485
+    y: 481
+    width: 51
+    height: 64
+    xoffset: 0
+    yoffset: 36
+    xadvance: 53
+    page: 0
+    uv0: {x: 0.751938, y: 0.15372671}
+  - id: 99
+    x: 485
+    y: 416
+    width: 51
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 53
+    page: 0
+    uv0: {x: 0.751938, y: 0.2562112}
+  - id: 100
+    x: 487
+    y: 237
+    width: 50
+    height: 62
+    xoffset: 0
+    yoffset: 39
+    xadvance: 52
+    page: 0
+    uv0: {x: 0.75503874, y: 0.53571427}
+  - id: 101
+    x: 537
+    y: 547
+    width: 44
+    height: 64
+    xoffset: 0
+    yoffset: 36
+    xadvance: 46
+    page: 0
+    uv0: {x: 0.83255816, y: 0.051242236}
+  - id: 102
+    x: 538
+    y: 387
+    width: 41
+    height: 64
+    xoffset: 0
+    yoffset: 36
+    xadvance: 43
+    page: 0
+    uv0: {x: 0.83410853, y: 0.29968944}
+  - id: 103
+    x: 433
+    y: 85
+    width: 52
+    height: 64
+    xoffset: 0
+    yoffset: 37
+    xadvance: 54
+    page: 0
+    uv0: {x: 0.6713178, y: 0.76863354}
+  - id: 104
+    x: 484
+    y: 350
+    width: 51
+    height: 64
+    xoffset: 0
+    yoffset: 37
+    xadvance: 53
+    page: 0
+    uv0: {x: 0.7503876, y: 0.35714287}
+  - id: 105
+    x: 615
+    y: 410
+    width: 25
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 27
+    page: 0
+    uv0: {x: 0.95348835, y: 0.26552796}
+  - id: 106
+    x: 538
+    y: 64
+    width: 38
+    height: 62
+    xoffset: 0
+    yoffset: 38
+    xadvance: 40
+    page: 0
+    uv0: {x: 0.83410853, y: 0.8043478}
+  - id: 107
+    x: 485
+    y: 547
+    width: 50
+    height: 63
+    xoffset: 0
+    yoffset: 38
+    xadvance: 52
+    page: 0
+    uv0: {x: 0.751938, y: 0.05279503}
+  - id: 108
+    x: 539
+    y: 234
+    width: 38
+    height: 60
+    xoffset: 0
+    yoffset: 40
+    xadvance: 40
+    page: 0
+    uv0: {x: 0.8356589, y: 0.54347825}
+  - id: 109
+    x: 161
+    y: 440
+    width: 71
+    height: 64
+    xoffset: 0
+    yoffset: 36
+    xadvance: 73
+    page: 0
+    uv0: {x: 0.2496124, y: 0.2173913}
+  - id: 110
+    x: 235
+    y: 260
+    width: 59
+    height: 65
+    xoffset: 0
+    yoffset: 36
+    xadvance: 61
+    page: 0
+    uv0: {x: 0.36434108, y: 0.49534163}
+  - id: 111
+    x: 366
+    y: 349
+    width: 58
+    height: 64
+    xoffset: 0
+    yoffset: 37
+    xadvance: 60
+    page: 0
+    uv0: {x: 0.5674419, y: 0.35869566}
+  - id: 112
+    x: 430
+    y: 415
+    width: 52
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 54
+    page: 0
+    uv0: {x: 0.6666667, y: 0.25776398}
+  - id: 113
+    x: 165
+    y: 176
+    width: 63
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 65
+    page: 0
+    uv0: {x: 0.25581396, y: 0.628882}
+  - id: 114
+    x: 430
+    y: 175
+    width: 52
+    height: 65
+    xoffset: 0
+    yoffset: 35
+    xadvance: 54
+    page: 0
+    uv0: {x: 0.6666667, y: 0.6273292}
+  - id: 115
+    x: 321
+    y: 86
+    width: 47
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 49
+    page: 0
+    uv0: {x: 0.4976744, y: 0.76863354}
+  - id: 116
+    x: 495
+    y: 0
+    width: 46
+    height: 62
+    xoffset: 0
+    yoffset: 38
+    xadvance: 48
+    page: 0
+    uv0: {x: 0.76744187, y: 0.9037267}
+  - id: 117
+    x: 426
+    y: 350
+    width: 55
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 57
+    page: 0
+    uv0: {x: 0.6604651, y: 0.35869566}
+  - id: 118
+    x: 372
+    y: 415
+    width: 56
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 58
+    page: 0
+    uv0: {x: 0.5767442, y: 0.25776398}
+  - id: 119
+    x: 89
+    y: 177
+    width: 74
+    height: 63
+    xoffset: 0
+    yoffset: 37
+    xadvance: 76
+    page: 0
+    uv0: {x: 0.1379845, y: 0.6273292}
+  - id: 120
+    x: 305
+    y: 349
+    width: 59
+    height: 64
+    xoffset: 0
+    yoffset: 36
+    xadvance: 61
+    page: 0
+    uv0: {x: 0.4728682, y: 0.35869566}
+  - id: 121
+    x: 371
+    y: 261
+    width: 56
+    height: 64
+    xoffset: 0
+    yoffset: 37
+    xadvance: 58
+    page: 0
+    uv0: {x: 0.5751938, y: 0.49534163}
+  - id: 122
+    x: 487
+    y: 84
+    width: 49
+    height: 62
+    xoffset: 0
+    yoffset: 38
+    xadvance: 51
+    page: 0
+    uv0: {x: 0.75503874, y: 0.77329195}
+  - id: 65
+    x: 85
+    y: 264
+    width: 75
+    height: 86
+    xoffset: 0
+    yoffset: 15
+    xadvance: 77
+    page: 0
+    uv0: {x: 0.13178295, y: 0.45652175}
+  - id: 66
+    x: 231
+    y: 506
+    width: 69
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 71
+    page: 0
+    uv0: {x: 0.35813954, y: 0.07919255}
+  - id: 67
+    x: 179
+    y: 0
+    width: 70
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 72
+    page: 0
+    uv0: {x: 0.27751938, y: 0.8680124}
+  - id: 68
+    x: 251
+    y: 87
+    width: 68
+    height: 84
+    xoffset: 0
+    yoffset: 17
+    xadvance: 70
+    page: 0
+    uv0: {x: 0.38914728, y: 0.73447204}
+  - id: 69
+    x: 371
+    y: 86
+    width: 60
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 62
+    page: 0
+    uv0: {x: 0.5751938, y: 0.73136646}
+  - id: 70
+    x: 429
+    y: 261
+    width: 56
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 58
+    page: 0
+    uv0: {x: 0.66511625, y: 0.45962733}
+  - id: 71
+    x: 161
+    y: 352
+    width: 71
+    height: 86
+    xoffset: 0
+    yoffset: 15
+    xadvance: 73
+    page: 0
+    uv0: {x: 0.2496124, y: 0.31987578}
+  - id: 72
+    x: 162
+    y: 242
+    width: 71
+    height: 87
+    xoffset: 0
+    yoffset: 14
+    xadvance: 73
+    page: 0
+    uv0: {x: 0.2511628, y: 0.48913044}
+  - id: 73
+    x: 580
+    y: 453
+    width: 33
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 35
+    page: 0
+    uv0: {x: 0.8992248, y: 0.16459627}
+  - id: 74
+    x: 484
+    y: 151
+    width: 51
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 53
+    page: 0
+    uv0: {x: 0.7503876, y: 0.63509315}
+  - id: 75
+    x: 235
+    y: 173
+    width: 68
+    height: 85
+    xoffset: 0
+    yoffset: 16
+    xadvance: 70
+    page: 0
+    uv0: {x: 0.36434108, y: 0.5993789}
+  - id: 76
+    x: 442
+    y: 0
+    width: 51
+    height: 82
+    xoffset: 0
+    yoffset: 18
+    xadvance: 53
+    page: 0
+    uv0: {x: 0.6852713, y: 0.8726708}
+  - id: 77
+    x: 0
+    y: 88
+    width: 100
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 102
+    page: 0
+    uv0: {x: 0, y: 0.7282609}
+  - id: 78
+    x: 0
+    y: 353
+    width: 82
+    height: 88
+    xoffset: 0
+    yoffset: 13
+    xadvance: 84
+    page: 0
+    uv0: {x: 0, y: 0.3152174}
+  - id: 79
+    x: 0
+    y: 443
+    width: 81
+    height: 86
+    xoffset: 0
+    yoffset: 15
+    xadvance: 83
+    page: 0
+    uv0: {x: 0, y: 0.17857143}
+  - id: 80
+    x: 105
+    y: 0
+    width: 72
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 74
+    page: 0
+    uv0: {x: 0.1627907, y: 0.8680124}
+  - id: 81
+    x: 0
+    y: 177
+    width: 87
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 89
+    page: 0
+    uv0: {x: 0, y: 0.5931677}
+  - id: 82
+    x: 157
+    y: 530
+    width: 72
+    height: 88
+    xoffset: 0
+    yoffset: 12
+    xadvance: 74
+    page: 0
+    uv0: {x: 0.24341086, y: 0.04037267}
+  - id: 83
+    x: 305
+    y: 173
+    width: 64
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 66
+    page: 0
+    uv0: {x: 0.4728682, y: 0.5993789}
+  - id: 84
+    x: 234
+    y: 420
+    width: 63
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 65
+    page: 0
+    uv0: {x: 0.3627907, y: 0.2173913}
+  - id: 85
+    x: 83
+    y: 443
+    width: 76
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 78
+    page: 0
+    uv0: {x: 0.12868217, y: 0.18012422}
+  - id: 86
+    x: 0
+    y: 531
+    width: 77
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 79
+    page: 0
+    uv0: {x: 0, y: 0.04347826}
+  - id: 87
+    x: 0
+    y: 0
+    width: 103
+    height: 86
+    xoffset: 0
+    yoffset: 14
+    xadvance: 105
+    page: 0
+    uv0: {x: 0, y: 0.8664596}
+  - id: 88
+    x: 0
+    y: 264
+    width: 83
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 85
+    page: 0
+    uv0: {x: 0, y: 0.45496893}
+  - id: 89
+    x: 79
+    y: 531
+    width: 76
+    height: 87
+    xoffset: 0
+    yoffset: 14
+    xadvance: 78
+    page: 0
+    uv0: {x: 0.12248062, y: 0.04037267}
+  - id: 90
+    x: 302
+    y: 515
+    width: 67
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 69
+    page: 0
+    uv0: {x: 0.46821705, y: 0.06987578}
+  - id: 48
+    x: 84
+    y: 353
+    width: 75
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 77
+    page: 0
+    uv0: {x: 0.13023256, y: 0.31987578}
+  - id: 49
+    x: 538
+    y: 453
+    width: 40
+    height: 88
+    xoffset: 0
+    yoffset: 13
+    xadvance: 42
+    page: 0
+    uv0: {x: 0.83410853, y: 0.15993789}
+  - id: 50
+    x: 371
+    y: 175
+    width: 57
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 59
+    page: 0
+    uv0: {x: 0.5751938, y: 0.59782606}
+  - id: 51
+    x: 537
+    y: 148
+    width: 49
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 51
+    page: 0
+    uv0: {x: 0.83255816, y: 0.63975155}
+  - id: 52
+    x: 178
+    y: 87
+    width: 71
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 73
+    page: 0
+    uv0: {x: 0.275969, y: 0.73447204}
+  - id: 53
+    x: 321
+    y: 0
+    width: 61
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 63
+    page: 0
+    uv0: {x: 0.4976744, y: 0.8695652}
+  - id: 54
+    x: 305
+    y: 260
+    width: 64
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 66
+    page: 0
+    uv0: {x: 0.4728682, y: 0.46118012}
+  - id: 55
+    x: 384
+    y: 0
+    width: 56
+    height: 83
+    xoffset: 0
+    yoffset: 17
+    xadvance: 58
+    page: 0
+    uv0: {x: 0.59534883, y: 0.871118}
+  - id: 56
+    x: 234
+    y: 331
+    width: 69
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 71
+    page: 0
+    uv0: {x: 0.3627907, y: 0.35093167}
+  - id: 57
+    x: 251
+    y: 0
+    width: 68
+    height: 85
+    xoffset: 0
+    yoffset: 15
+    xadvance: 70
+    page: 0
+    uv0: {x: 0.38914728, y: 0.8680124}
+  - id: 33
+    x: 588
+    y: 118
+    width: 30
+    height: 82
+    xoffset: 0
+    yoffset: 18
+    xadvance: 32
+    page: 0
+    uv0: {x: 0.9116279, y: 0.68944097}
+  - id: 63
+    x: 429
+    y: 546
+    width: 54
+    height: 87
+    xoffset: 0
+    yoffset: 13
+    xadvance: 56
+    page: 0
+    uv0: {x: 0.66511625, y: 0.017080745}
+  - id: 44
+    x: 579
+    y: 234
+    width: 34
+    height: 57
+    xoffset: 0
+    yoffset: 67
+    xadvance: 36
+    page: 0
+    uv0: {x: 0.89767444, y: 0.54813665}
+  - id: 46
+    x: 311
+    y: 601
+    width: 29
+    height: 37
+    xoffset: 0
+    yoffset: 64
+    xadvance: 31
+    page: 0
+    uv0: {x: 0.48217055, y: 0.00931677}
+  - id: 58
+    x: 615
+    y: 202
+    width: 28
+    height: 61
+    xoffset: 0
+    yoffset: 40
+    xadvance: 30
+    page: 0
+    uv0: {x: 0.95348835, y: 0.5916149}
+  - id: 59
+    x: 583
+    y: 540
+    width: 31
+    height: 83
+    xoffset: 0
+    yoffset: 39
+    xadvance: 33
+    page: 0
+    uv0: {x: 0.90387595, y: 0.032608695}
+  - id: 34
+    x: 543
+    y: 0
+    width: 33
+    height: 42
+    xoffset: 0
+    yoffset: 14
+    xadvance: 35
+    page: 0
+    uv0: {x: 0.8418605, y: 0.9347826}
+  - id: 39
+    x: 342
+    y: 601
+    width: 17
+    height: 41
+    xoffset: 0
+    yoffset: 13
+    xadvance: 19
+    page: 0
+    uv0: {x: 0.53023255, y: 0.0031055901}
+  - id: 36
+    x: 302
+    y: 420
+    width: 68
+    height: 93
+    xoffset: 0
+    yoffset: 7
+    xadvance: 70
+    page: 0
+    uv0: {x: 0.46821705, y: 0.20341615}
+  - id: 37
+    x: 371
+    y: 515
+    width: 56
+    height: 84
+    xoffset: 0
+    yoffset: 16
+    xadvance: 58
+    page: 0
+    uv0: {x: 0.5751938, y: 0.06987578}
+  - id: 38
+    x: 102
+    y: 88
+    width: 74
+    height: 86
+    xoffset: 0
+    yoffset: 15
+    xadvance: 76
+    page: 0
+    uv0: {x: 0.15813954, y: 0.72981364}
+  - id: 40
+    x: 578
+    y: 0
+    width: 37
+    height: 116
+    xoffset: 0
+    yoffset: -6
+    xadvance: 39
+    page: 0
+    uv0: {x: 0.896124, y: 0.8198758}
+  - id: 41
+    x: 588
+    y: 293
+    width: 32
+    height: 115
+    xoffset: 0
+    yoffset: -5
+    xadvance: 34
+    page: 0
+    uv0: {x: 0.9116279, y: 0.36645964}
+  - id: 45
+    x: 0
+    y: 620
+    width: 38
+    height: 22
+    xoffset: 0
+    yoffset: 66
+    xadvance: 40
+    page: 0
+    uv0: {x: 0, y: 0.0031055901}
+  - id: 43
+    x: 231
+    y: 595
+    width: 38
+    height: 42
+    xoffset: 0
+    yoffset: 46
+    xadvance: 40
+    page: 0
+    uv0: {x: 0.35813954, y: 0.010869565}
+  - id: 61
+    x: 271
+    y: 601
+    width: 38
+    height: 37
+    xoffset: 0
+    yoffset: 63
+    xadvance: 40
+    page: 0
+    uv0: {x: 0.42015505, y: 0.00931677}
+  - id: 47
+    x: 537
+    y: 301
+    width: 49
+    height: 84
+    xoffset: 0
+    yoffset: 17
+    xadvance: 51
+    page: 0
+    uv0: {x: 0.83255816, y: 0.4021739}
+  - id: 32
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+    xoffset: 0
+    yoffset: 0
+    xadvance: 30
+    page: 0
+    uv0: {x: 0, y: 1}
+  - id: 9
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+    xoffset: 0
+    yoffset: 0
+    xadvance: 240
+    page: 0
+    uv0: {x: 0, y: 1}
+  kernings:
+  - first: 65
+    second: 39
+    amount: -6
+  - first: 65
+    second: 67
+    amount: -5
+  - first: 65
+    second: 71
+    amount: -5
+  - first: 65
+    second: 79
+    amount: -6
+  - first: 65
+    second: 81
+    amount: -6
+  - first: 65
+    second: 84
+    amount: -6
+  - first: 65
+    second: 85
+    amount: -4
+  - first: 65
+    second: 86
+    amount: -9
+  - first: 65
+    second: 87
+    amount: -7
+  - first: 65
+    second: 89
+    amount: -5
+  - first: 66
+    second: 65
+    amount: -5
+  - first: 66
+    second: 69
+    amount: -6
+  - first: 66
+    second: 76
+    amount: -1
+  - first: 66
+    second: 80
+    amount: -4
+  - first: 66
+    second: 82
+    amount: -1
+  - first: 66
+    second: 85
+    amount: -2
+  - first: 66
+    second: 86
+    amount: -8
+  - first: 66
+    second: 87
+    amount: -5
+  - first: 66
+    second: 89
+    amount: -6
+  - first: 67
+    second: 65
+    amount: -5
+  - first: 67
+    second: 79
+    amount: -6
+  - first: 67
+    second: 82
+    amount: -2
+  - first: 68
+    second: 65
+    amount: -5
+  - first: 68
+    second: 68
+    amount: -1
+  - first: 68
+    second: 69
+    amount: -4
+  - first: 68
+    second: 73
+    amount: -1
+  - first: 68
+    second: 76
+    amount: -1
+  - first: 68
+    second: 77
+    amount: -3
+  - first: 68
+    second: 78
+    amount: -1
+  - first: 68
+    second: 79
+    amount: -3
+  - first: 68
+    second: 80
+    amount: -4
+  - first: 68
+    second: 82
+    amount: -1
+  - first: 68
+    second: 85
+    amount: -2
+  - first: 68
+    second: 86
+    amount: -6
+  - first: 68
+    second: 87
+    amount: -4
+  - first: 68
+    second: 89
+    amount: -2
+  - first: 69
+    second: 67
+    amount: -7
+  - first: 69
+    second: 79
+    amount: -8
+  - first: 70
+    second: 65
+    amount: -12
+  - first: 70
+    second: 67
+    amount: -7
+  - first: 70
+    second: 71
+    amount: -7
+  - first: 70
+    second: 79
+    amount: -8
+  - first: 70
+    second: 46
+    amount: -14
+  - first: 70
+    second: 44
+    amount: -18
+  - first: 71
+    second: 69
+    amount: -4
+  - first: 71
+    second: 79
+    amount: -5
+  - first: 71
+    second: 82
+    amount: -2
+  - first: 71
+    second: 85
+    amount: -5
+  - first: 72
+    second: 79
+    amount: -2
+  - first: 73
+    second: 67
+    amount: -3
+  - first: 73
+    second: 71
+    amount: -3
+  - first: 73
+    second: 79
+    amount: -4
+  - first: 74
+    second: 65
+    amount: -8
+  - first: 74
+    second: 79
+    amount: -4
+  - first: 75
+    second: 79
+    amount: -7
+  - first: 76
+    second: 39
+    amount: -19
+  - first: 76
+    second: 67
+    amount: -10
+  - first: 76
+    second: 84
+    amount: -10
+  - first: 76
+    second: 86
+    amount: -15
+  - first: 76
+    second: 87
+    amount: -7
+  - first: 76
+    second: 89
+    amount: -13
+  - first: 76
+    second: 71
+    amount: -7
+  - first: 76
+    second: 79
+    amount: -10
+  - first: 76
+    second: 85
+    amount: -4
+  - first: 77
+    second: 71
+    amount: -2
+  - first: 77
+    second: 79
+    amount: -3
+  - first: 78
+    second: 67
+    amount: -5
+  - first: 78
+    second: 71
+    amount: -5
+  - first: 78
+    second: 79
+    amount: -6
+  - first: 79
+    second: 65
+    amount: -8
+  - first: 79
+    second: 66
+    amount: -2
+  - first: 79
+    second: 68
+    amount: -2
+  - first: 79
+    second: 69
+    amount: -10
+  - first: 79
+    second: 70
+    amount: -2
+  - first: 79
+    second: 72
+    amount: -4
+  - first: 79
+    second: 73
+    amount: -2
+  - first: 79
+    second: 75
+    amount: -2
+  - first: 79
+    second: 76
+    amount: -2
+  - first: 79
+    second: 77
+    amount: -5
+  - first: 79
+    second: 78
+    amount: -2
+  - first: 79
+    second: 80
+    amount: -4
+  - first: 79
+    second: 82
+    amount: -2
+  - first: 79
+    second: 84
+    amount: -3
+  - first: 79
+    second: 85
+    amount: -5
+  - first: 79
+    second: 86
+    amount: -8
+  - first: 79
+    second: 87
+    amount: -4
+  - first: 79
+    second: 88
+    amount: -15
+  - first: 79
+    second: 89
+    amount: -2
+  - first: 80
+    second: 65
+    amount: -9
+  - first: 80
+    second: 69
+    amount: -1
+  - first: 80
+    second: 76
+    amount: -1
+  - first: 80
+    second: 79
+    amount: -4
+  - first: 80
+    second: 80
+    amount: -2
+  - first: 80
+    second: 85
+    amount: -6
+  - first: 80
+    second: 89
+    amount: -3
+  - first: 80
+    second: 46
+    amount: -12
+  - first: 80
+    second: 44
+    amount: -16
+  - first: 80
+    second: 59
+    amount: -5
+  - first: 80
+    second: 58
+    amount: -3
+  - first: 81
+    second: 85
+    amount: -4
+  - first: 82
+    second: 67
+    amount: -8
+  - first: 82
+    second: 71
+    amount: -6
+  - first: 82
+    second: 89
+    amount: -8
+  - first: 82
+    second: 84
+    amount: -7
+  - first: 82
+    second: 85
+    amount: -3
+  - first: 82
+    second: 86
+    amount: -8
+  - first: 82
+    second: 87
+    amount: -6
+  - first: 82
+    second: 89
+    amount: -8
+  - first: 83
+    second: 73
+    amount: -1
+  - first: 83
+    second: 77
+    amount: -3
+  - first: 83
+    second: 84
+    amount: -7
+  - first: 83
+    second: 85
+    amount: -2
+  - first: 84
+    second: 65
+    amount: -11
+  - first: 84
+    second: 67
+    amount: -6
+  - first: 84
+    second: 79
+    amount: -7
+  - first: 85
+    second: 65
+    amount: -7
+  - first: 85
+    second: 67
+    amount: -2
+  - first: 85
+    second: 71
+    amount: -2
+  - first: 85
+    second: 79
+    amount: -3
+  - first: 85
+    second: 83
+    amount: -2
+  - first: 86
+    second: 65
+    amount: -13
+  - first: 86
+    second: 67
+    amount: -8
+  - first: 86
+    second: 71
+    amount: -8
+  - first: 86
+    second: 79
+    amount: -9
+  - first: 86
+    second: 83
+    amount: -7
+  - first: 87
+    second: 65
+    amount: -12
+  - first: 87
+    second: 67
+    amount: -6
+  - first: 87
+    second: 71
+    amount: -6
+  - first: 87
+    second: 79
+    amount: -7
+  - first: 89
+    second: 65
+    amount: -7
+  - first: 89
+    second: 67
+    amount: -1
+  - first: 89
+    second: 79
+    amount: -2
+  - first: 89
+    second: 83
+    amount: -1
+  - first: 90
+    second: 79
+    amount: -3
+  - first: 65
+    second: 99
+    amount: -5
+  - first: 65
+    second: 100
+    amount: -2
+  - first: 65
+    second: 101
+    amount: -5
+  - first: 65
+    second: 103
+    amount: -4
+  - first: 65
+    second: 111
+    amount: -5
+  - first: 65
+    second: 112
+    amount: -4
+  - first: 65
+    second: 113
+    amount: -4
+  - first: 65
+    second: 116
+    amount: -5
+  - first: 65
+    second: 117
+    amount: -3
+  - first: 65
+    second: 118
+    amount: -6
+  - first: 65
+    second: 119
+    amount: -5
+  - first: 65
+    second: 121
+    amount: -4
+  - first: 66
+    second: 98
+    amount: -1
+  - first: 66
+    second: 105
+    amount: -1
+  - first: 66
+    second: 107
+    amount: -1
+  - first: 66
+    second: 108
+    amount: -1
+  - first: 66
+    second: 114
+    amount: -1
+  - first: 66
+    second: 117
+    amount: -3
+  - first: 66
+    second: 121
+    amount: -1
+  - first: 66
+    second: 46
+    amount: -5
+  - first: 66
+    second: 44
+    amount: -6
+  - first: 67
+    second: 97
+    amount: -4
+  - first: 67
+    second: 114
+    amount: -2
+  - first: 67
+    second: 46
+    amount: -3
+  - first: 67
+    second: 44
+    amount: -4
+  - first: 68
+    second: 97
+    amount: -5
+  - first: 68
+    second: 46
+    amount: -6
+  - first: 68
+    second: 44
+    amount: -7
+  - first: 69
+    second: 117
+    amount: -3
+  - first: 69
+    second: 118
+    amount: -8
+  - first: 70
+    second: 97
+    amount: -12
+  - first: 70
+    second: 101
+    amount: -7
+  - first: 70
+    second: 105
+    amount: -7
+  - first: 70
+    second: 111
+    amount: -9
+  - first: 70
+    second: 114
+    amount: -7
+  - first: 70
+    second: 116
+    amount: -8
+  - first: 70
+    second: 117
+    amount: -10
+  - first: 70
+    second: 121
+    amount: -8
+  - first: 70
+    second: 46
+    amount: -14
+  - first: 70
+    second: 44
+    amount: -18
+  - first: 70
+    second: 59
+    amount: -9
+  - first: 70
+    second: 58
+    amount: -7
+  - first: 71
+    second: 117
+    amount: -5
+  - first: 72
+    second: 101
+    amount: -1
+  - first: 72
+    second: 111
+    amount: -2
+  - first: 72
+    second: 117
+    amount: -2
+  - first: 72
+    second: 121
+    amount: -1
+  - first: 73
+    second: 99
+    amount: -5
+  - first: 73
+    second: 100
+    amount: -3
+  - first: 73
+    second: 113
+    amount: -4
+  - first: 73
+    second: 111
+    amount: -5
+  - first: 73
+    second: 116
+    amount: -4
+  - first: 74
+    second: 97
+    amount: -7
+  - first: 74
+    second: 101
+    amount: -3
+  - first: 74
+    second: 111
+    amount: -6
+  - first: 74
+    second: 117
+    amount: -7
+  - first: 74
+    second: 46
+    amount: -6
+  - first: 74
+    second: 44
+    amount: -7
+  - first: 75
+    second: 101
+    amount: -7
+  - first: 75
+    second: 111
+    amount: -4
+  - first: 75
+    second: 117
+    amount: -4
+  - first: 76
+    second: 117
+    amount: -3
+  - first: 76
+    second: 121
+    amount: -8
+  - first: 77
+    second: 97
+    amount: -5
+  - first: 77
+    second: 99
+    amount: -4
+  - first: 77
+    second: 100
+    amount: -2
+  - first: 77
+    second: 101
+    amount: -2
+  - first: 77
+    second: 111
+    amount: -4
+  - first: 78
+    second: 117
+    amount: -9
+  - first: 78
+    second: 97
+    amount: -10
+  - first: 78
+    second: 101
+    amount: -5
+  - first: 78
+    second: 105
+    amount: -5
+  - first: 78
+    second: 111
+    amount: -8
+  - first: 78
+    second: 117
+    amount: -9
+  - first: 78
+    second: 46
+    amount: -9
+  - first: 78
+    second: 44
+    amount: -10
+  - first: 79
+    second: 97
+    amount: -8
+  - first: 79
+    second: 98
+    amount: -2
+  - first: 79
+    second: 104
+    amount: -4
+  - first: 79
+    second: 107
+    amount: -2
+  - first: 79
+    second: 108
+    amount: -2
+  - first: 79
+    second: 46
+    amount: -12
+  - first: 79
+    second: 44
+    amount: -13
+  - first: 80
+    second: 97
+    amount: -9
+  - first: 80
+    second: 101
+    amount: -3
+  - first: 80
+    second: 111
+    amount: -7
+  - first: 82
+    second: 100
+    amount: -1
+  - first: 82
+    second: 101
+    amount: -6
+  - first: 82
+    second: 111
+    amount: -6
+  - first: 82
+    second: 116
+    amount: -7
+  - first: 82
+    second: 117
+    amount: -2
+  - first: 83
+    second: 105
+    amount: -1
+  - first: 83
+    second: 112
+    amount: -2
+  - first: 83
+    second: 117
+    amount: -3
+  - first: 83
+    second: 46
+    amount: -6
+  - first: 83
+    second: 44
+    amount: -7
+  - first: 84
+    second: 97
+    amount: -12
+  - first: 84
+    second: 99
+    amount: -13
+  - first: 84
+    second: 101
+    amount: -6
+  - first: 84
+    second: 105
+    amount: -6
+  - first: 84
+    second: 111
+    amount: -12
+  - first: 84
+    second: 114
+    amount: -6
+  - first: 84
+    second: 115
+    amount: -8
+  - first: 84
+    second: 117
+    amount: -10
+  - first: 84
+    second: 119
+    amount: -6
+  - first: 84
+    second: 121
+    amount: -8
+  - first: 84
+    second: 46
+    amount: -20
+  - first: 84
+    second: 44
+    amount: -21
+  - first: 84
+    second: 59
+    amount: -8
+  - first: 84
+    second: 58
+    amount: -6
+  - first: 85
+    second: 97
+    amount: -6
+  - first: 85
+    second: 103
+    amount: -3
+  - first: 85
+    second: 109
+    amount: -5
+  - first: 85
+    second: 110
+    amount: -2
+  - first: 85
+    second: 112
+    amount: -2
+  - first: 85
+    second: 115
+    amount: -4
+  - first: 85
+    second: 46
+    amount: -5
+  - first: 85
+    second: 44
+    amount: -6
+  - first: 86
+    second: 97
+    amount: -14
+  - first: 86
+    second: 101
+    amount: -8
+  - first: 86
+    second: 105
+    amount: -8
+  - first: 86
+    second: 111
+    amount: -13
+  - first: 86
+    second: 114
+    amount: -8
+  - first: 86
+    second: 117
+    amount: -12
+  - first: 86
+    second: 46
+    amount: -17
+  - first: 86
+    second: 44
+    amount: -18
+  - first: 86
+    second: 59
+    amount: -10
+  - first: 86
+    second: 58
+    amount: -8
+  - first: 87
+    second: 100
+    amount: -6
+  - first: 87
+    second: 105
+    amount: -6
+  - first: 87
+    second: 109
+    amount: -9
+  - first: 87
+    second: 114
+    amount: -6
+  - first: 87
+    second: 116
+    amount: -7
+  - first: 87
+    second: 117
+    amount: -10
+  - first: 87
+    second: 121
+    amount: -8
+  - first: 87
+    second: 46
+    amount: -13
+  - first: 87
+    second: 44
+    amount: -14
+  - first: 87
+    second: 59
+    amount: -8
+  - first: 87
+    second: 58
+    amount: -6
+  - first: 88
+    second: 97
+    amount: -6
+  - first: 88
+    second: 101
+    amount: -10
+  - first: 88
+    second: 111
+    amount: -10
+  - first: 88
+    second: 117
+    amount: -6
+  - first: 88
+    second: 121
+    amount: -11
+  - first: 89
+    second: 100
+    amount: -1
+  - first: 89
+    second: 101
+    amount: -1
+  - first: 89
+    second: 105
+    amount: -1
+  - first: 89
+    second: 112
+    amount: -1
+  - first: 89
+    second: 117
+    amount: -5
+  - first: 89
+    second: 118
+    amount: -2
+  - first: 89
+    second: 46
+    amount: -18
+  - first: 89
+    second: 44
+    amount: -22
+  - first: 89
+    second: 59
+    amount: -3
+  - first: 89
+    second: 58
+    amount: -1
+  - first: 97
+    second: 99
+    amount: -4
+  - first: 97
+    second: 100
+    amount: -1
+  - first: 97
+    second: 101
+    amount: -5
+  - first: 97
+    second: 103
+    amount: -3
+  - first: 97
+    second: 112
+    amount: -3
+  - first: 97
+    second: 102
+    amount: -1
+  - first: 97
+    second: 116
+    amount: -4
+  - first: 97
+    second: 117
+    amount: -2
+  - first: 97
+    second: 118
+    amount: -6
+  - first: 97
+    second: 119
+    amount: -4
+  - first: 97
+    second: 121
+    amount: -3
+  - first: 97
+    second: 112
+    amount: -3
+  - first: 98
+    second: 108
+    amount: -2
+  - first: 98
+    second: 114
+    amount: -2
+  - first: 98
+    second: 117
+    amount: -3
+  - first: 98
+    second: 121
+    amount: -7
+  - first: 98
+    second: 46
+    amount: -2
+  - first: 98
+    second: 44
+    amount: -3
+  - first: 99
+    second: 97
+    amount: -3
+  - first: 99
+    second: 104
+    amount: -2
+  - first: 99
+    second: 107
+    amount: -2
+  - first: 100
+    second: 97
+    amount: -3
+  - first: 100
+    second: 99
+    amount: -2
+  - first: 100
+    second: 101
+    amount: -4
+  - first: 100
+    second: 103
+    amount: -1
+  - first: 100
+    second: 111
+    amount: -2
+  - first: 100
+    second: 116
+    amount: -2
+  - first: 100
+    second: 117
+    amount: -3
+  - first: 100
+    second: 118
+    amount: -5
+  - first: 100
+    second: 119
+    amount: -2
+  - first: 100
+    second: 121
+    amount: -1
+  - first: 100
+    second: 46
+    amount: -2
+  - first: 100
+    second: 44
+    amount: -3
+  - first: 101
+    second: 97
+    amount: -2
+  - first: 101
+    second: 105
+    amount: -1
+  - first: 101
+    second: 108
+    amount: -1
+  - first: 101
+    second: 109
+    amount: -1
+  - first: 101
+    second: 110
+    amount: -1
+  - first: 101
+    second: 112
+    amount: -2
+  - first: 101
+    second: 114
+    amount: -1
+  - first: 101
+    second: 116
+    amount: -3
+  - first: 101
+    second: 117
+    amount: -2
+  - first: 101
+    second: 118
+    amount: -3
+  - first: 101
+    second: 119
+    amount: -2
+  - first: 101
+    second: 121
+    amount: -4
+  - first: 101
+    second: 46
+    amount: -1
+  - first: 101
+    second: 44
+    amount: -2
+  - first: 102
+    second: 97
+    amount: -7
+  - first: 102
+    second: 101
+    amount: -2
+  - first: 102
+    second: 102
+    amount: -2
+  - first: 102
+    second: 105
+    amount: -2
+  - first: 102
+    second: 108
+    amount: -2
+  - first: 102
+    second: 111
+    amount: -5
+  - first: 102
+    second: 46
+    amount: -6
+  - first: 102
+    second: 44
+    amount: -7
+  - first: 103
+    second: 97
+    amount: -4
+  - first: 103
+    second: 101
+    amount: -3
+  - first: 103
+    second: 104
+    amount: -3
+  - first: 103
+    second: 108
+    amount: -3
+  - first: 103
+    second: 111
+    amount: -4
+  - first: 103
+    second: 103
+    amount: -3
+  - first: 103
+    second: 46
+    amount: -3
+  - first: 103
+    second: 44
+    amount: -4
+  - first: 104
+    second: 99
+    amount: -2
+  - first: 104
+    second: 100
+    amount: -1
+  - first: 104
+    second: 101
+    amount: -1
+  - first: 104
+    second: 103
+    amount: -1
+  - first: 104
+    second: 111
+    amount: -2
+  - first: 104
+    second: 112
+    amount: -1
+  - first: 104
+    second: 116
+    amount: -2
+  - first: 104
+    second: 117
+    amount: -2
+  - first: 104
+    second: 118
+    amount: -2
+  - first: 104
+    second: 119
+    amount: -1
+  - first: 104
+    second: 121
+    amount: -1
+  - first: 105
+    second: 99
+    amount: -3
+  - first: 105
+    second: 100
+    amount: -1
+  - first: 105
+    second: 101
+    amount: -1
+  - first: 105
+    second: 103
+    amount: -2
+  - first: 105
+    second: 111
+    amount: -3
+  - first: 105
+    second: 112
+    amount: -1
+  - first: 105
+    second: 116
+    amount: -2
+  - first: 105
+    second: 117
+    amount: -4
+  - first: 105
+    second: 118
+    amount: -2
+  - first: 106
+    second: 97
+    amount: -5
+  - first: 106
+    second: 101
+    amount: -1
+  - first: 106
+    second: 111
+    amount: -4
+  - first: 106
+    second: 117
+    amount: -5
+  - first: 106
+    second: 46
+    amount: -4
+  - first: 106
+    second: 44
+    amount: -5
+  - first: 107
+    second: 97
+    amount: -3
+  - first: 107
+    second: 99
+    amount: -3
+  - first: 107
+    second: 100
+    amount: -2
+  - first: 107
+    second: 101
+    amount: -2
+  - first: 107
+    second: 103
+    amount: -2
+  - first: 107
+    second: 111
+    amount: -3
+  - first: 108
+    second: 97
+    amount: -3
+  - first: 108
+    second: 99
+    amount: -6
+  - first: 108
+    second: 100
+    amount: -2
+  - first: 108
+    second: 101
+    amount: -7
+  - first: 108
+    second: 102
+    amount: -2
+  - first: 108
+    second: 103
+    amount: -5
+  - first: 108
+    second: 111
+    amount: -7
+  - first: 108
+    second: 112
+    amount: -4
+  - first: 108
+    second: 113
+    amount: -6
+  - first: 108
+    second: 117
+    amount: -3
+  - first: 108
+    second: 118
+    amount: -10
+  - first: 108
+    second: 119
+    amount: -5
+  - first: 108
+    second: 121
+    amount: -15
+  - first: 109
+    second: 97
+    amount: -3
+  - first: 109
+    second: 99
+    amount: -2
+  - first: 109
+    second: 100
+    amount: -1
+  - first: 109
+    second: 101
+    amount: -1
+  - first: 109
+    second: 103
+    amount: -1
+  - first: 109
+    second: 110
+    amount: -1
+  - first: 109
+    second: 111
+    amount: -2
+  - first: 109
+    second: 112
+    amount: -1
+  - first: 109
+    second: 116
+    amount: -2
+  - first: 109
+    second: 117
+    amount: -3
+  - first: 109
+    second: 118
+    amount: -2
+  - first: 109
+    second: 121
+    amount: -1
+  - first: 110
+    second: 99
+    amount: -5
+  - first: 110
+    second: 100
+    amount: -2
+  - first: 110
+    second: 101
+    amount: -2
+  - first: 110
+    second: 103
+    amount: -4
+  - first: 110
+    second: 111
+    amount: -5
+  - first: 110
+    second: 112
+    amount: -2
+  - first: 110
+    second: 116
+    amount: -3
+  - first: 110
+    second: 117
+    amount: -6
+  - first: 110
+    second: 118
+    amount: -3
+  - first: 110
+    second: 119
+    amount: -2
+  - first: 110
+    second: 121
+    amount: -4
+  - first: 111
+    second: 98
+    amount: -2
+  - first: 111
+    second: 102
+    amount: -2
+  - first: 111
+    second: 104
+    amount: -3
+  - first: 111
+    second: 106
+    amount: -6
+  - first: 111
+    second: 107
+    amount: -2
+  - first: 111
+    second: 108
+    amount: -2
+  - first: 111
+    second: 109
+    amount: -4
+  - first: 111
+    second: 110
+    amount: -2
+  - first: 111
+    second: 112
+    amount: -3
+  - first: 111
+    second: 114
+    amount: -2
+  - first: 111
+    second: 117
+    amount: -4
+  - first: 111
+    second: 118
+    amount: -7
+  - first: 111
+    second: 119
+    amount: -3
+  - first: 111
+    second: 120
+    amount: -8
+  - first: 111
+    second: 121
+    amount: -2
+  - first: 111
+    second: 46
+    amount: -6
+  - first: 111
+    second: 44
+    amount: -7
+  - first: 112
+    second: 97
+    amount: -7
+  - first: 112
+    second: 104
+    amount: -4
+  - first: 112
+    second: 105
+    amount: -2
+  - first: 112
+    second: 108
+    amount: -2
+  - first: 112
+    second: 112
+    amount: -2
+  - first: 112
+    second: 117
+    amount: -5
+  - first: 112
+    second: 46
+    amount: -9
+  - first: 112
+    second: 44
+    amount: -12
+  - first: 113
+    second: 117
+    amount: -2
+  - first: 116
+    second: 46
+    amount: -14
+  - first: 114
+    second: 97
+    amount: -2
+  - first: 114
+    second: 100
+    amount: -1
+  - first: 114
+    second: 101
+    amount: -4
+  - first: 114
+    second: 103
+    amount: -4
+  - first: 114
+    second: 107
+    amount: -1
+  - first: 114
+    second: 108
+    amount: -1
+  - first: 114
+    second: 109
+    amount: -1
+  - first: 114
+    second: 110
+    amount: -1
+  - first: 114
+    second: 111
+    amount: -6
+  - first: 114
+    second: 113
+    amount: -5
+  - first: 114
+    second: 114
+    amount: -1
+  - first: 114
+    second: 116
+    amount: -5
+  - first: 114
+    second: 118
+    amount: -5
+  - first: 114
+    second: 121
+    amount: -6
+  - first: 114
+    second: 46
+    amount: -1
+  - first: 114
+    second: 44
+    amount: -2
+  - first: 115
+    second: 104
+    amount: -2
+  - first: 115
+    second: 116
+    amount: -5
+  - first: 115
+    second: 117
+    amount: -3
+  - first: 115
+    second: 46
+    amount: -2
+  - first: 115
+    second: 44
+    amount: -3
+  - first: 116
+    second: 100
+    amount: -1
+  - first: 116
+    second: 97
+    amount: -7
+  - first: 116
+    second: 101
+    amount: -1
+  - first: 116
+    second: 111
+    amount: -7
+  - first: 116
+    second: 46
+    amount: -14
+  - first: 116
+    second: 44
+    amount: -15
+  - first: 117
+    second: 97
+    amount: -4
+  - first: 117
+    second: 99
+    amount: -3
+  - first: 117
+    second: 100
+    amount: -1
+  - first: 117
+    second: 101
+    amount: -1
+  - first: 117
+    second: 103
+    amount: -2
+  - first: 117
+    second: 111
+    amount: -3
+  - first: 117
+    second: 112
+    amount: -1
+  - first: 117
+    second: 113
+    amount: -2
+  - first: 117
+    second: 116
+    amount: -2
+  - first: 117
+    second: 118
+    amount: -2
+  - first: 117
+    second: 119
+    amount: -1
+  - first: 117
+    second: 121
+    amount: -2
+  - first: 118
+    second: 97
+    amount: -8
+  - first: 118
+    second: 98
+    amount: -2
+  - first: 118
+    second: 99
+    amount: -8
+  - first: 118
+    second: 100
+    amount: -2
+  - first: 118
+    second: 101
+    amount: -2
+  - first: 118
+    second: 103
+    amount: -7
+  - first: 118
+    second: 111
+    amount: -8
+  - first: 118
+    second: 118
+    amount: -3
+  - first: 118
+    second: 121
+    amount: -4
+  - first: 118
+    second: 46
+    amount: -11
+  - first: 118
+    second: 44
+    amount: -12
+  - first: 119
+    second: 97
+    amount: -8
+  - first: 119
+    second: 120
+    amount: -7
+  - first: 119
+    second: 100
+    amount: -2
+  - first: 119
+    second: 101
+    amount: -2
+  - first: 119
+    second: 103
+    amount: -6
+  - first: 119
+    second: 104
+    amount: -4
+  - first: 119
+    second: 111
+    amount: -7
+  - first: 119
+    second: 46
+    amount: -9
+  - first: 119
+    second: 44
+    amount: -10
+  - first: 120
+    second: 97
+    amount: -4
+  - first: 120
+    second: 101
+    amount: -3
+  - first: 120
+    second: 111
+    amount: -8
+  - first: 121
+    second: 46
+    amount: -8
+  - first: 121
+    second: 44
+    amount: -12
+  - first: 121
+    second: 97
+    amount: -6
+  - first: 121
+    second: 99
+    amount: -3
+  - first: 121
+    second: 100
+    amount: -2
+  - first: 121
+    second: 101
+    amount: -5
+  - first: 121
+    second: 111
+    amount: -3
+  inAtlas: 0
+  editorNeedRebuild: 0
